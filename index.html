@@ -9,13 +9,20 @@
 </head>
 <body>
     <br>
-    <div class="bx" style="margin-left: 25%;">
-        <label class="pick">ROCK</label>
+    <div class="bx" style="margin-left: 25%" id="player">
+        <label class="pick" id="leftpick"></label>
+        <label class="status" id="leftstatus"></label>
     </div>
     <p id="vs">VS</p>
-    <div class="bx" style="margin-left: 50%">
-        <label class="pick">PAPER</label>
+    <div class="bx" style="margin-left: 50%" id="opponent">
+        <label class="pick" id="rightpick"></label>
+        <label class="status" id="rightstatus"></label>
     </div>
+
+    <button id="go">GO</button>
+    <button id="0" onclick="setId(this.id)">ROCK</button>
+    <button id="1" onclick="setId(this.id)">PAPER</button>
+    <button id="2" onclick="setId(this.id)">SCISSORS</button>
 
     <script src="script.js"></script>
 </body>

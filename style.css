@@ -18,3 +18,18 @@
     font-size: 50px;
     margin-left: 41%;
 }
+
+#go{
+    position: fixed;
+    font-size: 50px;
+    margin-left: 25%;
+    margin-top: 320px;
+    border: 2px dashed black;
+}
+
+.status{
+    position: fixed;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
