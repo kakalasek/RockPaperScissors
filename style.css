@@ -1,0 +1,20 @@
+.bx{
+    position: fixed;
+    border: 3px solid black;
+    height: 300px;
+    width: 200px;
+    background-color: grey;
+}
+
+.pick{
+    position: fixed;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#vs{
+    position: fixed;
+    font-size: 50px;
+    margin-left: 41%;
+}
